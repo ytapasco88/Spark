@@ -10,7 +10,7 @@ sudo apt install -y python3
 sudo apt install -y python3-pip
 
 source ~/.bashrc
-pip install pyspark==3.2.3
+pip install pyspark==3.2.1
 
 if [[ ! -e /opt/spark/spark-3.2.3-bin-hadoop3.2.tgz ]]; then
     sudo mkdir -p /opt/spark/
